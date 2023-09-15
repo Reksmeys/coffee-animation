@@ -1,0 +1,32 @@
+*{
+    font-family: 'Moulpali', cursive;
+}
+@keyframes up-down {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+.container{
+    display: flex;
+    animation: up-down 2s ease-in-out infinite alternate;
+    animation: name duration timing-function iteration-count direction;
+}
+.description{
+    max-width: 50vw;
+}
+.banner{
+    max-width: 500px;
+    height: 50vh;
+    
+}
+.banner img{
+    width: 100%;
+    transform: scale(0.5);
+}
+
+
+
+
